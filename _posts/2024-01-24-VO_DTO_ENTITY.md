@@ -70,14 +70,14 @@ class ArticleVO {
 
 * 주로 비동기 처리를 할 때 사용한다.
 
-  ```java
-  @Getter
-  @AllArgsConstructor
-  public class MemberDto {
-    private String name;
-    private int age;
-  }
-  ```
+```java
+@Getter
+@AllArgsConstructor
+public class MemberDto {
+private String name;
+private int age;
+}
+```
 
 ---
 
@@ -95,31 +95,32 @@ class ArticleVO {
 
 * ENTITY는 데이터베이스 영속성(persistent)의 목적으로 사용되는 객체이며, 요청(Request)이나 응답(Response)값을 전달하는 클래소로 사용하는 것은 좋지 않다.  
 
-  ```java
-  @Entity
-  @Builder
-  @Getter
-  @NoArgsConstructor
-  @AllArgsConstructor
-  public class User {
-   @Id
-   @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private Long id;
-  
-   @Column(nullable = false)
-   private String name;
-  
-   @Column(nullable = false)
-   private String email;
-  
-   private String phoneNumber;
-  }
-  ```
+```java
+@Entity
+@Builder
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+public class User {
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+private Long id;
+
+@Column(nullable = false)
+private String name;
+
+@Column(nullable = false)
+private String email;
+
+private String phoneNumber;
+}
+```
 
   
 ---
 ## 정리
----
+---  
+
 | |VO|DTO|ENTITY|
 |:------:|:---:|:---:|:---:|
 |생성 목적|객체안의 값을 통해서 비교해야하는 중요 로직에서 사용할 데이터를 담기위해 사용|단순 데이터 전송,수신 용도|JPA 사용시 DB 테이블과 직접적으로 매핑하여 DB에 접근할 때 사용|
