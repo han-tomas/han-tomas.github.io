@@ -28,7 +28,7 @@ Spring과 Spring Boot 이 둘의 차이점을 정리해 두는 것이 좋겠다�
 |Spring|SpringBoot|
 |:---:|:---:|
 |dependency(의존성)를 버전까지 정확하게 작성 <br> &rarr; 작성 내용이 길다 |버전관리를 자동으로 해준다 <br> &rarr; 작성 내용이 짧아짐|  
-|Configuration(환경설정)도 길다|application.properties/.yml로 짧게 적용 <br> .yml을 더 선호|  
+|Configuration(환경설정)도 길다|application.properties/.yml로 짧게 적용 <br> (application.yml을 더 선호)|  
 ||embeded server(내장 서버)로 <br> 서버 구동 시간이 절반 가까이 단축됨. <br> 내장 서블릿 컨테이너 덕분에 <br> jar파일로 간단히 배포|  
 
 ---
