@@ -1,7 +1,7 @@
 ---
 title: Spring vs SpringBoot
 date: 2023-01-25 00:00:00 +0900
-categories: [🍃Spring, 이론 및 개념]
+categories: [🍃Spring, [Spring]이론 및 개념]
 tags: [Spring,
 SpringBoot,
 ]     
