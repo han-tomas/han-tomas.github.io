@@ -1,7 +1,7 @@
 ---
 title: Spring vs SpringBoot
 date: 2024-01-25 00:00:00 +0900
-categories: [⚙Back-End, 🍃Spring]
+categories: [⚙️Back-End, 🍃Spring]
 tags: [Spring,
 SpringBoot,
 ]     
