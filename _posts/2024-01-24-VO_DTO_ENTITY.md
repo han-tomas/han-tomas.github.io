@@ -1,6 +1,6 @@
 ---
 title: VO vs DTO vs ENTITY
-date: 2023-01-24 00:00:00 +0900
+date: 2024-01-24 00:00:00 +0900
 categories: [🍃Spring, 🍃이론 및 개념]
 tags: [Spring,
 문법,
