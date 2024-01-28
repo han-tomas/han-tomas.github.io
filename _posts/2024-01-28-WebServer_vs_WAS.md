@@ -45,7 +45,7 @@ Server,
 * 비즈니스 로직 수행 기능  
 * Web Server + Web Container  
 
-<span style="font-size:10%"> **Container : jsp/Servlet을 실행시킬 수 있는 소프트 웨어** 
+<span style="font-size:10%"> **Container : jsp/Servlet을 실행시킬 수 있는 소프트 웨어**</span> 
   
 
 ![WAS](https://github.com/han-tomas/han-tomas.github.io/assets/124488773/301dde0f-1d16-428e-b410-bac4e36316f2)
