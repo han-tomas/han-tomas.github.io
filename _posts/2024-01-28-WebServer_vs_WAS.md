@@ -44,8 +44,10 @@ Server,
 * 프로그램 실행 환경과 데이터 베이스 접속 기능 제공  
 * 비즈니스 로직 수행 기능  
 * Web Server + Web Container  
-<div style="text-align: right"> **<span style="font-size:10%">Container : jsp/Servlet을 실행시킬 수 있는 소프트 웨어**</div>  
+
+**<span style="font-size:10%"> Container : jsp/Servlet을 실행시킬 수 있는 소프트 웨어** 
   
+
 ![WAS](https://github.com/han-tomas/han-tomas.github.io/assets/124488773/301dde0f-1d16-428e-b410-bac4e36316f2)
   
 ![apche_TomCat](https://github.com/han-tomas/han-tomas.github.io/assets/124488773/c3464e5d-cb53-4d93-b4c8-fb1d27c5aeb4)
