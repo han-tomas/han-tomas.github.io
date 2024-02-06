@@ -1,6 +1,6 @@
 ---
 title: 시간 복잡도(Time Complexity)
-date: 2024-02-02 00:00:00 +0900
+date: 2024-02-06 00:00:00 +0900
 categories: [💻Computer Science, 👨‍💻Algorithm]
 tags: [네트워크,
 Algorithm,
