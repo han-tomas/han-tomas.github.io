@@ -1,5 +1,5 @@
 ---
-title: TCP/IP 프로토콜
+title: 시간 복잡도(Time Complexity)
 date: 2024-02-02 00:00:00 +0900
 categories: [💻Computer Science, 👨‍💻Algorithm]
 tags: [네트워크,
