@@ -49,8 +49,8 @@ Java를 공부하면서 **`JVM`**,**`JRE`**,**`JDK`**에 관해서 들어봤을 
 * 중간 코드로 해석되기 때문에 프로그램의 코드가 유출 될 수 있다.  
   
 ### 정리  
-개발자가 작성한 코드를  **<span style = "color : cyan">미리 번역**해 두었다가, 프로그램을 실행할 때 컴퓨터가 번역된 코드를 한번에 읽는 언어는  **<span style = "color : cyan">컴파일되는 언어**  
-반대로, 개발자가 코딩을 하고 난 후, 그 코드를 그대로 갖고 있다가  프로그램을 실행하는 그때 그때에 **<span style = "color : orange">실시간으로 통역</span>**하는 언어는 **<span style = "color : orange">인터프리트 언어**  
+개발자가 작성한 코드를  **<span style = "color : cyan">미리 번역</apan>**해 두었다가, 프로그램을 실행할 때 컴퓨터가 번역된 코드를 한번에 읽는 언어는  **<span style = "color : cyan">컴파일되는 언어</span>**  
+반대로, 개발자가 코딩을 하고 난 후, 그 코드를 그대로 갖고 있다가  프로그램을 실행하는 그때 그때에 **<span style = "color : orange">실시간으로 통역</span>**하는 언어는 **<span style = "color : orange">인터프리트 언어</span>**  
   
 ---  
 ## Java는 플랫폼에 독립적이다.  
