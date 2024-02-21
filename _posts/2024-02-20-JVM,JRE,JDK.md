@@ -1,5 +1,5 @@
 ---
-title: JVM?JRE??JDK???
+title: JVM? JRE? JDK??
 date: 2024-02-20 00:00:00 +0900
 categories: [⚙️Back-End, ☕Java]
 tags: [Java,
@@ -61,18 +61,18 @@ Java를 공부하면서 **`JVM`**,**`JRE`**,**`JDK`**에 관해서 들어봤을 
   
 ![image](https://github.com/han-tomas/han-tomas.github.io/assets/124488773/a70d9993-4d43-4b8d-8b9a-db4ff9f041f6)  
 Java의 경우 위 그림과 같이 코드를 실행할 각 운영체제에 **JVM(Java Virtual Machine)**을 두고, 코드를 작성하여 하나의 **Java ByteCode**로 컴파일 하여 각각에게 보내면, JVM이 공통의 기계어 번역본을 가지고 실행한다. 자바 개발자들은 자바를 실행할 컴퓨터 및 기기에 이 JVM 프로그램만 설치해 둔다면 어떤 언어로 컴파일 할지 신경쓰지 않아도 된다. 👉 **플랫폼에 독립적이다.**  
-
- ---  
- ## JVM  
- ![image](https://github.com/han-tomas/han-tomas.github.io/assets/124488773/7844c6b4-c22b-48d8-9aa6-8feb489511bf)  
+  
+---  
+## JVM  
+![image](https://github.com/han-tomas/han-tomas.github.io/assets/124488773/7844c6b4-c22b-48d8-9aa6-8feb489511bf)  
 
 **JVM**이란 **J**ava **V**irtual **M**achine의 약자로 *'자바를 실행하기 위한 가상 기계'*이다.  
 **Java는 플랫폼에 독립적이다**는 특징을 가지고 있는데, 바로 이 **JVM**을 통해 OS에 종속 받지않고 Java언어로 프로그래밍 된 소프트웨어 실행할 수 있기 때문이다.  
   
 ![image](https://github.com/han-tomas/han-tomas.github.io/assets/124488773/c62e4ad0-5307-4b4a-b10f-b488e8ce51cc)    
-Java언어로 작성된 코드(.java)는 **javac**라는 컴파일러를 통해 Java ByteCode[^1]로 컴파일 되고(.class), 이는 각 컴퓨터에 설치된 JVM에 의해 실행된다.  
-위 그림과 같이 JVM의 구성요소에는 여러가지가 있지만, 이는 중요한 내용이 많아 따로 정리해보겠다.  
-[^1]: JVM이 이해할 수 있는 언어로 변환된 자바 소스코드  
+Java언어로 작성된 코드(.java)는 **javac**라는 컴파일러를 통해 Java ByteCode<sup>[1](#f1)</sup>로 컴파일 되고(.class), 이는 각 컴퓨터에 설치된 JVM에 의해 실행된다.  
+위 그림과 같이 JVM의 구성요소에는 여러가지가 있지만, 이는 중요한 내용이 많아 따로 정리해보겠다.      
+<span style="font-size: 10px"><b id="f1">1</b>: JVM이 이해할 수 있는 언어로 변환된 자바 소스코드</span>  
 
 ---  
 ## JRE  
